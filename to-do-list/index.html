@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>To Do List</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: toDoList
+  * Author: Richa Parekh
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div id="logo">
+        <!-- <h1><a href="index.html"><span>toDo</span>List</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo.png" alt="" title="" height="50" width="50"/></a>
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Welcome to toDoList</h1>
+      <h2>To do list design using HTML, CSS, Bootstrap, JavaScript</h2>
+      <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+      <a href="#to-do-list" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Get Started Section ======= -->
+    <section id="to-do-list" class="padd-section text-center">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+
+          <h2>simple to do list </h2>
+          <!-- <p class="separator">Integer cursus bibendum augue ac cursus .</p> -->
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="todo-form">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control"
+                                       id="todo-input"
+                                       placeholder="Add new task"
+                                    required>
+                                <button class="btn btn-primary" type="submit">
+                                      Add
+                                  </button>
+                            </div>
+                        </form>
+                        <ul class="list-group" id="todo-list">
+                            <!-- Tasks will be added here dynamically -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </section><!-- End Get Started Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+
+
+    <div class="copyrights">
+      <div class="container">
+        <p>&copy; Copyrights Richa. All rights reserved.</p>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">Richa</a>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/to-do-list.js"></script>
+</body>
+</html>
